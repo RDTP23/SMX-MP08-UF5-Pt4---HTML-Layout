@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobotWeb</title>
+    <style>
+        img { width: 60px; }
+        body { margin: 0; font-family: Arial, sans-serif; }
+        .header { display: flex; justify-content: space-between; padding: 10px; }
+        .images { display: flex; flex-direction: column; padding: 10px; }
+        .welcome { background-color: #777; color: white; text-align: center; padding: 50px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span>🤖</span>
+        <span>RobotWeb</span>
+        <span>🔎</span>
+    </div>
+    <div class="images">
+        <img src="https://gerardfp.github.io/htmllayout/img/1.webp">
+        <img src="https://gerardfp.github.io/htmllayout/img/2.webp">
+        <img src="https://gerardfp.github.io/htmllayout/img/3.webp">
+        <img src="https://gerardfp.github.io/htmllayout/img/4.webp">
+    </div>
+    <div class="welcome">
+        Welcome to RobotWeb
+    </div>
+</body>
+</html>
